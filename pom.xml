@@ -5,7 +5,7 @@
   <artifactId>ProblemReporter</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>Dependency Breaker</name>
-  <description>The Problem Reporter TDD Collaborators Example</description>
+  <description>The Problem Reporter TDD Collaborators Exercise</description>
 
   <build>
     <plugins>
