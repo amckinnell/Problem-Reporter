@@ -3,9 +3,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.valuablecode</groupId>
   <artifactId>ProblemReporter</artifactId>
+  <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Problem Reporter</name>
-  <description>The Problem Reporter TDD Collaborators Exercise</description>
+  <description>The Problem Reporter TDD Collaborators Example</description>
 
   <build>
     <plugins>
@@ -27,11 +28,15 @@
       <artifactId>mail</artifactId>
       <version>1.4.1</version>
     </dependency>
+    
+    <!-- Note: you can skip this dependency (I used this library in my solution). -->
     <dependency>
       <groupId>commons-lang</groupId>
       <artifactId>commons-lang</artifactId>
       <version>2.3</version>
     </dependency>
+    
+    <!-- Note: you can skip this dependency and use Eclipse's built-in support for JUnit. -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
