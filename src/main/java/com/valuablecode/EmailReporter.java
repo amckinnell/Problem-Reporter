@@ -5,8 +5,22 @@ package com.valuablecode;
  */
 public class EmailReporter implements ProblemReporter {
 
+    private final EmailReportService emailReportService;
+    private final ProblemReport report;
+
+    public EmailReporter() {
+        this(new JavaMailReportService(), new HtmlProblemReport());
+    }
+
+    public EmailReporter(EmailReportService emailReportService, ProblemReport report) {
+        this.emailReportService = emailReportService;
+        this.report = report;
+    }
+
     public void report(Exception unhandled) {
-        // To be implemented
+        report.formatReport(unhandled);
+
+        emailReportService.sendReport(report);
     }
 
 }
