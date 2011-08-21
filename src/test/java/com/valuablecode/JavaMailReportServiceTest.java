@@ -13,8 +13,7 @@ public class JavaMailReportServiceTest {
 
     private MimeMessage messageToSend;
 
-    @Test
-    public void
+    @Test public void
     creates_message_based_on_configuration() throws Exception {
         TestConfiguration configuration = new TestConfiguration() ;
         EmailReportService sut = createJavaMailReportService(configuration);
