@@ -32,9 +32,9 @@ public class HtmlProblemReportTest {
         String formattedReport = sut.getFormattedReport();
 
         String expectedPreformattedStackTrace =
-                "<pre>\n" +
+                "<pre><code>\n" +
                 unhandledException.getFakeStackTrace() +
-                "\n</pre>\n";
+                "\n</code></pre>\n";
 
         assertThat(formattedReport, containsString(expectedPreformattedStackTrace));
     }

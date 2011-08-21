@@ -28,9 +28,9 @@ class HtmlProblemReport implements ProblemReport {
     }
 
     private void createStackTrace(StringBuffer report, Exception unhandled) {
-        report.append("<pre>\n");
+        report.append("<pre><code>\n");
         report.append(extractStackTrace(unhandled));
-        report.append("</pre>\n");
+        report.append("</code></pre>\n");
     }
 
     private String extractStackTrace(Exception unhandled) {
