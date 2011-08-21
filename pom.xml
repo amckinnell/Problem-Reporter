@@ -28,6 +28,15 @@
       <artifactId>mail</artifactId>
       <version>1.4.1</version>
     </dependency>
+    
+    <!-- Note: you can skip this dependency (I used this library in my solution). -->
+    <dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+      <version>2.3</version>
+    </dependency>
+    
+    <!-- Note: you can skip this dependency and use Eclipse's built-in support for JUnit. -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
