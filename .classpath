@@ -3,7 +3,9 @@
 	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="src" output="bin-test" path="src/test/java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="con" path="org.apache.ivyde.eclipse.cpcontainer.IVYDE_CONTAINER/?ivyXmlPath=pom.xml&amp;confs=*"/>
+	<classpathentry kind="lib" path="lib/junit-4.8.2.jar" sourcepath="lib/junit-4.8.2-sources.jar"/>
+	<classpathentry kind="lib" path="lib/activation-1.1.jar" sourcepath="lib/activation-1.1-sources.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang-2.3.jar" sourcepath="lib/commons-lang-2.3-sources.jar"/>
+	<classpathentry kind="lib" path="lib/mail-1.4.1.jar" sourcepath="lib/mail-1.4.1-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

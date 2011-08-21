@@ -14,4 +14,52 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>lib/activation-1.1-sources.jar</name>
+			<type>1</type>
+			<locationURI>IVY_REPO/cache/javax.activation/activation/sources/activation-1.1-sources.jar</locationURI>
+		</link>
+		<link>
+			<name>lib/activation-1.1.jar</name>
+			<type>1</type>
+			<locationURI>IVY_REPO/cache/javax.activation/activation/jars/activation-1.1.jar</locationURI>
+		</link>
+		<link>
+			<name>lib/commons-lang-2.3-sources.jar</name>
+			<type>1</type>
+			<locationURI>IVY_REPO/cache/commons-lang/commons-lang/sources/commons-lang-2.3-sources.jar</locationURI>
+		</link>
+		<link>
+			<name>lib/commons-lang-2.3.jar</name>
+			<type>1</type>
+			<locationURI>IVY_REPO/cache/commons-lang/commons-lang/jars/commons-lang-2.3.jar</locationURI>
+		</link>
+		<link>
+			<name>lib/junit-4.8.2-sources.jar</name>
+			<type>1</type>
+			<locationURI>IVY_REPO/cache/junit/junit/sources/junit-4.8.2-sources.jar</locationURI>
+		</link>
+		<link>
+			<name>lib/junit-4.8.2.jar</name>
+			<type>1</type>
+			<locationURI>IVY_REPO/cache/junit/junit/jars/junit-4.8.2.jar</locationURI>
+		</link>
+		<link>
+			<name>lib/mail-1.4.1-sources.jar</name>
+			<type>1</type>
+			<locationURI>IVY_REPO/cache/javax.mail/mail/sources/mail-1.4.1-sources.jar</locationURI>
+		</link>
+		<link>
+			<name>lib/mail-1.4.1.jar</name>
+			<type>1</type>
+			<locationURI>IVY_REPO/cache/javax.mail/mail/jars/mail-1.4.1.jar</locationURI>
+		</link>
+	</linkedResources>
+	<variableList>
+		<variable>
+			<name>IVY_REPO</name>
+			<value>file:/Users/alistair/.ivy2</value>
+		</variable>
+	</variableList>
 </projectDescription>
