@@ -5,7 +5,7 @@
   <artifactId>ProblemReporter</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>Dependency Breaker</name>
-  <description>The Problem Reporter TDD Collaborators Example</description>
+  <description>The Problem Reporter TDD Collaborators Exercise</description>
 
   <build>
     <plugins>
@@ -25,6 +25,11 @@
       <groupId>javax.mail</groupId>
       <artifactId>mail</artifactId>
       <version>1.4.1</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+      <version>2.3</version>
     </dependency>
   </dependencies>
 </project>
