@@ -30,11 +30,11 @@ public class GmailSmtpConfigurationTest {
     lazily_initialises_email_address_for_administrator() {
         System.clearProperty("administrator.email.address");
 
-        assertThat(sut.getEmailAddressForAdministrator(),equalTo("valuablecode.public@gmail.com"));
+        assertThat(sut.getEmailAddressForAdministrator(),equalTo("alistair.mckinnell@gmail.com"));
 
         System.setProperty("administrator.email.address", "other_value");
 
-        assertThat(sut.getEmailAddressForAdministrator(),equalTo("valuablecode.public@gmail.com"));
+        assertThat(sut.getEmailAddressForAdministrator(),equalTo("alistair.mckinnell@gmail.com"));
     }
 
     @Test public void
@@ -74,11 +74,11 @@ public class GmailSmtpConfigurationTest {
     lazily_initialises_user() {
         System.clearProperty("gmail.smtp.user");
 
-        assertThat(sut.getUser(),equalTo("valuablecode.public@gmail.com"));
+        assertThat(sut.getUser(),equalTo("alistair.mckinnell@gmail.com"));
 
         System.setProperty("gmail.smtp.user", "other_value");
 
-        assertThat(sut.getUser(),equalTo("valuablecode.public@gmail.com"));
+        assertThat(sut.getUser(),equalTo("alistair.mckinnell@gmail.com"));
     }
 
 }

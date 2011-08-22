@@ -55,10 +55,10 @@ public class ProblemReporterSpike {
     private void sendEmail(String subject, String body) throws AddressException, MessagingException {
         String host = "smtp.gmail.com";
         String password = System.getProperty("gmail.smtp.password");
-        String user = "valuablecode.public@gmail.com";
+        String user = "alistair.mckinnell@gmail.com";
 
-        String fromEmailAddress = "valuablecode.public@gmail.com";
-        String toEmailAddress = "valuablecode.public@gmail.com";
+        String fromEmailAddress = "alistair.mckinnell@gmail.com";
+        String toEmailAddress = "alistair.mckinnell@gmail.com";
 
         InternetAddress to = new InternetAddress(toEmailAddress);
         InternetAddress from = new InternetAddress(fromEmailAddress);
