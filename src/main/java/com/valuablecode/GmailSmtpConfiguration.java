@@ -26,7 +26,7 @@ class GmailSmtpConfiguration implements EmailReportServiceConfiguration {
     public String getEmailAddressForAdministrator() {
         if (null == emailAddressForAdministrator) {
             emailAddressForAdministrator = System.getProperty("administrator.email.address",
-                    "alistair.mckinnell@gmail.com");
+                    "valuablecode.public@gmail.com");
         }
 
         return emailAddressForAdministrator;
@@ -63,7 +63,7 @@ class GmailSmtpConfiguration implements EmailReportServiceConfiguration {
 
     public String getUser() {
         if (null == user) {
-            user = System.getProperty("gmail.smtp.user", "alistair.mckinnell@gmail.com");
+            user = System.getProperty("gmail.smtp.user", "valuablecode.public@gmail.com");
         }
 
         return user;
